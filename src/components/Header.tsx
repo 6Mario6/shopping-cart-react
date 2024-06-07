@@ -1,14 +1,10 @@
 import { Filters } from "./Filters";
 import { type Filter } from "./Filters.types";
-export const Header = ({
-  changeFilters,
-}: {
-  changeFilters: (updateFn: (prevState: Filter) => Filter) => void;
-}) => {
+export const Header = () => {
   return (
     <header>
       <h1>React Shop</h1>
-      <Filters changeFilters={changeFilters} />
+      <Filters />
     </header>
   );
 };
