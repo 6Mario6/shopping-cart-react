@@ -20,6 +20,7 @@ export const Cart = () => {
             </div>
             <footer>
               <small>Qt</small>
+              <button>+</button>
             </footer>
           </li>
         </ul>

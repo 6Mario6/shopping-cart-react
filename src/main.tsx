@@ -4,7 +4,9 @@ import "./index.css";
 import { FiltersProvider } from "./context/filters.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <FiltersProvider>
-    <App />
-  </FiltersProvider>
+  <>
+    <FiltersProvider>
+      <App />
+    </FiltersProvider>
+  </>
 );

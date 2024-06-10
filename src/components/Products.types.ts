@@ -44,3 +44,7 @@ export interface Product {
   images: string[];
   thumbnail: string;
 }
+
+export type CartProduct = Product & {
+  quantity: number;
+};
